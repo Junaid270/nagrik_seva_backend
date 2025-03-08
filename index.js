@@ -142,6 +142,7 @@ const adminRoutes = require("./routes/adminRoutes");
 const authRoutes = require("./routes/authRoutes");
 const postRoutes = require("./routes/postRoutes");
 const userRoutes = require("./routes/userRoutes");
+const bcrypt = require("bcryptjs"); 
 const port = 3000;
 
 const app = express();
